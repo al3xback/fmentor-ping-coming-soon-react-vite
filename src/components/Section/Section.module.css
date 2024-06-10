@@ -1,0 +1,100 @@
+.section,
+.head,
+.body {
+	display: flex;
+	flex-direction: column;
+}
+
+.section {
+	gap: 5.2rem;
+}
+
+.head {
+	padding: 0 2rem;
+}
+
+.intro,
+.content,
+.image {
+	display: flex;
+	flex-direction: column;
+}
+
+.intro {
+	gap: 1.6rem;
+	text-align: center;
+}
+
+.title .light {
+	font-weight: 300;
+	color: #969696;
+}
+
+.image img {
+	width: 100%;
+	height: auto;
+}
+
+@media (min-width: 37.5em) {
+	.title {
+		font-size: 3.4rem;
+	}
+}
+
+.form,
+.group {
+	display: flex;
+	flex-direction: column;
+}
+
+.form {
+	margin-top: 2rem;
+	text-align: left;
+}
+
+.control {
+	padding: 1rem 2.4rem;
+	border: 1px solid #c9c9c9;
+	border-radius: 24px;
+	outline: none;
+	color: inherit;
+}
+
+.control::-moz-placeholder {
+	color: #c9c9c9;
+}
+
+.control::placeholder {
+	color: #c9c9c9;
+}
+
+.control.invalid,
+.control.invalid:focus-visible {
+	border-color: #ff5263;
+}
+
+.error-message {
+	padding: 0 2.4rem;
+	margin: 0.6rem 0 1.2rem;
+	font-style: italic;
+	color: #ff5263;
+}
+
+@media (min-width: 48em) {
+	.group {
+		position: relative;
+		flex-direction: row;
+		gap: 1.6rem;
+	}
+
+	.control {
+		flex-grow: 1;
+	}
+
+	.error-message {
+		position: absolute;
+		top: 100%;
+		left: 0;
+		width: 100%;
+	}
+}

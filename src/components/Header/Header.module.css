@@ -1,0 +1,22 @@
+.header,
+.header h1,
+.logo {
+	display: flex;
+	flex-direction: column;
+}
+
+.header {
+	align-items: center;
+}
+
+.logo img {
+	width: 6rem;
+	height: 1.8rem;
+}
+
+@media (min-width: 48em) {
+	.logo img {
+		width: 6.8rem;
+		height: 2rem;
+	}
+}

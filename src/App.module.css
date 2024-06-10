@@ -1,0 +1,23 @@
+.wrapper,
+.wrapper > div {
+	display: flex;
+	flex: auto;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	gap: 4.2rem;
+	width: 100%;
+	margin: 6rem 0 21rem;
+}
+
+@media (min-width: 48em) {
+	.wrapper > div {
+		justify-content: center;
+	}
+
+	.content {
+		max-width: 65rem;
+	}
+}

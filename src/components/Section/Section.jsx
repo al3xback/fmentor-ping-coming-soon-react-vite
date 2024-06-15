@@ -15,11 +15,11 @@ export default function Section() {
 						<div className={styles.group}>
 							<input
 								className={styles.control}
-								type='email'
-								placeholder='Your email address...'
+								type="email"
+								placeholder="Your email address..."
 							/>
 							<div className={styles['error-message']}></div>
-							<button type='submit' className='btn btn--primary'>
+							<button type="submit" className="btn btn--primary">
 								Notify Me
 							</button>
 						</div>
@@ -33,7 +33,7 @@ export default function Section() {
 							src={illustrationImg}
 							width={278}
 							height={170}
-							alt='Illustration dashboard'
+							alt="Illustration dashboard"
 						/>
 					</div>
 				</div>

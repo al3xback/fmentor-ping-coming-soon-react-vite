@@ -7,10 +7,10 @@ function App() {
 	return (
 		<>
 			<div className={styles.wrapper}>
-				<div className='container'>
+				<div className="container">
 					<div className={styles.content}>
 						<Header />
-						<main className='main'>
+						<main className="main">
 							<Section />
 						</main>
 					</div>

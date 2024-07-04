@@ -1,8 +1,10 @@
 {
 	"name": "fmentor-ping-coming-soon-react-vite",
 	"private": true,
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"type": "module",
+	"author": "alex <al3xback@gmail.com>",
+	"license": "ISC",
 	"scripts": {
 		"dev": "vite",
 		"build": "vite build",
